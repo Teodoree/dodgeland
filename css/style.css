@@ -418,7 +418,7 @@ section {
   text-align: center; }
   .main-section__content-main__title {
     position: absolute;
-    top: 175px; }
+    top: 110px; }
   .main-section__content-main__model {
     font-size: 24px;
     color: white;
@@ -605,7 +605,11 @@ hr {
     max-width: 1200px; }
 
   .header__nav-menu__img {
-    margin-right: 0px; } }
+    margin-right: 0px; }
+
+  .second-section__left-wrapper__titles-model {
+    margin-bottom: 115px;
+    width: 449px; } }
 @media(max-width: 1200px) {
   .container {
     max-width: 1140px; }
@@ -617,7 +621,11 @@ hr {
     .header__nav-menu__info {
       opacity: 0; }
     .header__nav-menu__img {
-      margin-right: 0px; } }
+      margin-right: 0px; }
+
+  .second-section__left-wrapper__titles-model {
+    margin-bottom: 115px;
+    width: 375px; } }
 @media (max-width: 992px) {
   .container {
     max-width: 960px; }
@@ -695,10 +703,27 @@ hr {
   .five-section__wrappers {
     padding-top: 25px;
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+
+  .second-section__wrappers {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .second-section__left-wrapper {
+    width: 100%;
+    min-height: 611px; }
+
+  .second-section__left-wrapper__titles-model {
+    width: 674px; } }
 @media (max-width: 767px) {
   .container {
     max-width: 719px; }
+
+  .second-section__wrappers {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
 
   .header__nav-menu {
     font-size: 18px; }
@@ -767,18 +792,26 @@ hr {
     max-width: 100%; }
 
   .main-section__content-main__model__abouts {
-    font-size: 46px; }
+    font-size: 36px; }
 
   .main-section__content-main__title {
     top: 80px; }
 
   .main-section__content-main__model {
-    font-size: 18px; }
+    font-size: 16px; }
+
+  .second-section__wrappers {
+    display: flex;
+    flex-direction: column; }
+
+  .second-section__left-wrapper {
+    min-height: 350px;
+    width: 100%; }
 
   .second-section__left-wrapper__titles-model {
     margin-bottom: 0;
-    width: 0%;
-    height: 10%;
+    width: 100%;
+    height: 0%;
     font-size: 40px; }
 
   .second-section__left-wrapper__titles-abouts {
