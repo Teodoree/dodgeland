@@ -1,0 +1,423 @@
+@import "normalize.scss"
+@import "reset.scss"
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap')
+
+*
+	box-sizing: border-box
+html
+	font-family: 'Poppins'
+	font-weight: 400
+img
+	max-width: 100%
+	max-height: 100%
+section
+	overflow: hidden
+.header
+	background-color: #181D33
+	&__nav-container
+		display: flex
+		justify-content: space-between
+		align-items: center
+		width: 1300px
+		height: 115px
+	&__nav-menu
+		display: inline-flex
+		font-size: 24px
+		align-items: center
+		max-width: 650px
+		&__img
+			margin-right: 5%
+		&__info
+			color: white
+			text-align: center
+			line-height: 1.4em
+			padding-top: 12px
+			&__grey
+				color: #6A728F
+.nav-menu2
+	display: flex
+	align-items: center
+.content a
+	margin-right: 20px
+	text-decoration: none
+	color: white
+.content a:last-child
+	margin-right: 4.5em
+.button-buy
+	border: #EF2C25
+	min-width: 117px
+	min-height: 52px
+	border-radius: 3em
+	font-size: 24px
+	background-color: #EF2C25
+	color: white
+.main-section img
+	width: 100%
+	background-color: #C1D7E9
+	min-height: 100%
+.main-section
+	&__content-main
+		display: flex
+		flex-direction: column
+		align-items: center
+		text-align: center
+		&__title
+			position: absolute
+			top: 175px
+		&__model
+			font-size: 24px
+			color: white
+			font-weight: 400
+			letter-spacing: 0.1em
+			&__abouts
+				font-size: 115px
+				color: white
+				line-height: 1.1em
+.background
+	background-color: #C1D7E9
+	width: 100%
+
+.second-section
+	&__wrappers
+		display: flex
+		justify-content: space-around
+		align-items: center
+	&__right-wrapper 
+		display: flex
+		flex-direction: column
+	&__right-wrapper img
+		border-radius: 30px
+		margin-bottom: 20px
+	&__left-wrapper
+		min-height: 800px
+		width: 40%
+		&__titles-model
+			font-weight: 600
+			font-size: 64px
+			padding-top: 8%
+			width: 530px
+			height: 150px
+			text-align: center
+			margin-bottom: 80px
+			color: #2C365D
+			line-height: 1.2em
+		&__titles-abouts
+			font-weight: 400
+			font-size: 32px
+			text-align: center
+			color: #6A728F
+			line-height: 1.4em
+.rev_slider
+	padding-left: 100px
+.img-fluid
+	border-radius: 30px
+	margin-bottom: 20px
+.title-third
+	color: #2C365D
+	font-size: 64px
+	font-weight: 600
+	margin-bottom: 60px
+.third-section
+	height: 100%
+	overflow: hidden
+	background-color: #C1D7E9
+.content-owl a
+	color: #6A728F
+	margin-right: 0px
+	text-decoration: none
+.owl-nav
+	display: flex
+	justify-content: space-around
+.abouttext 
+	text-align: center
+	font-weight: 400
+	font-size: 24px
+	color: #6A728F
+.four-section
+	&__caros__titles__more 
+		font-size: 32px
+		font-weight: 400
+		color: #6A728F
+		margin-bottom: 30px
+	&__undo-text
+		display: flex
+		flex-direction: column
+		align-items: center
+		&__title
+			font-weight: 600
+			font-size: 32px
+			color: black
+			margin-bottom: 30px
+		&__ptitle
+			font-size: 24px
+			color: #6A728F
+			margin-bottom: 60px
+.my-carousel-progress
+	width: 400px
+	background: grey
+	border-radius: 25px
+	margin-top: 15px
+.my-carousel-progress-bar 
+	background: #2C3459
+	height: 3px
+	transition: width 400ms ease
+	width: 0%
+	border-radius: 25px
+.splide__slide
+	display: flex
+	justify-content: center
+.splide
+	display: flex
+	flex-direction: column
+	align-items: center
+	margin-bottom: 30px
+.five-section
+	&__buttons-info
+		display: flex
+		align-items: center
+		justify-content: flex-end
+	&__wrappers
+		display: flex
+		justify-content: space-between
+		padding-top: 80px
+	&__right-wrappers
+		max-width: 550px
+		text-align: center
+		&__info
+			font-weight: 400
+			font-size: 32px
+			text-align: center
+			color: #6A728F
+			line-height: 1.4em
+			margin-bottom: 55px
+.button-buy2
+	border: #EF2C25
+	min-width: 160px
+	min-height: 52px
+	border-radius: 3em
+	font-size: 24px
+	background-color: #EF2C25
+	color: white
+	margin-left: 10px
+.price-lord
+	color: black
+	text-align: center
+	line-height: 1.4em
+	padding-top: 12px
+	font-size: 14px
+	font-weight: 400
+	&__grey
+		color: #6A728F
+		font-weight: 400
+hr
+	width: 450px
+	color: #6A728F
+	height: 2px
+	background-color: #6A728F
+	margin: 0 auto
+	border-radius: 20px
+	border-width: 0px
+	margin-bottom: 50px
+.six-section
+	&__contenting
+		text-align: center
+		&__moreinfo
+			display: flex
+			justify-content: space-between
+			text-align: left
+			font-size: 32px
+			color: #6A728F
+.footer-img
+	width: 100%
+@media (max-width: 1400px)
+	.container
+		max-width: 1200px
+	.header
+		&__nav-menu
+			&__img
+				margin-right: 0px
+@media(max-width: 1200px)
+	.container
+		max-width: 1140px
+		ul
+			padding-left: 0px
+	.header
+		&__nav-menu
+			max-width: 490px
+			&__info
+				opacity: 0
+			&__img
+				margin-right: 0px
+@media (max-width: 992px)
+	.container
+		max-width: 960px
+		ul
+			padding-left: 0px
+	.header
+		&__nav-menu
+			&__info
+				opacity: 0
+			&__img
+				margin-right: 0px
+	.header__nav-menu
+		display: flex
+		font-size: 24px
+		flex-direction: column
+		justify-content: center
+	.button-buy
+		opacity: 0
+	.nav-menu
+		position: fixed
+		top: 0px
+		right: -100%
+		height: 100%
+		width: 100%
+		background: rgba(44, 52, 89, 1.0)
+		background: -webkit-radial-gradient(bottom right, rgba(44, 52, 89, 1.0), rgba(106, 114, 143, 1.0))
+		background: -moz-radial-gradient(bottom right, rgba(44, 52, 89, 1.0), rgba(106, 114, 143, 1.0))
+		background: radial-gradient(to top left, rgba(44, 52, 89, 1.0), rgba(106, 114, 143, 1.0))
+		z-index: 20
+		transition: 0.7s all
+		&__list
+			flex-direction: column
+			justify-content: space-evenly
+			align-items: center
+			height: 100%
+		&__list-item
+			margin-right: 0
+			font-size: 20px	
+	.humburger
+		width: 30px
+		position: absolute
+		top: 40px
+		right: 30px
+		height: 14px
+		z-index: 30
+		span
+			height: 2px
+			width: 100%
+			display: block
+			background: black
+			margin-bottom: 4px
+			transition: 1s all
+			&:last-child
+				margin-bottom: 0px
+	.humburger_active
+		span
+			margin-bottom: -2px
+			&:nth-child(1)
+				transform: translateY(3px) rotate(-45deg)
+			&:nth-child(2)
+				display: none
+			&:nth-child(3)
+				transform: translateY(3px) rotate(45deg)
+	.nav-menu_active
+		right: 0px
+		background-position: center
+	.main-section__content-main__model__abouts
+		font-size: 100px
+	.five-section__wrappers
+		padding-top: 25px
+		display: flex
+		flex-direction: column
+@media (max-width: 767px)
+	.container
+		max-width: 719px
+	.header
+		&__nav-menu
+			font-size: 18px
+			&__img
+				margin-right: 0px
+	.button-buy
+		opacity: 0
+	.nav-menu
+		position: fixed
+		top: 0px
+		right: -100%
+		height: 100%
+		width: 100%
+		// background: grey
+		z-index: 20
+		transition: 0.7s all
+		&__list
+			flex-direction: column
+			justify-content: space-evenly
+			align-items: center
+			height: 100%
+		&__list-item
+			margin-right: 0
+			font-size: 20px	
+	.humburger
+		width: 30px
+		position: absolute
+		top: 40px
+		right: 30px
+		height: 14px
+		z-index: 30
+		span
+			height: 2px
+			width: 100%
+			display: block
+			background: black
+			margin-bottom: 4px
+			transition: 1s all
+			&:last-child
+				margin-bottom: 0px
+	.humburger_active
+		span
+			margin-bottom: -2px
+			&:nth-child(1)
+				transform: translateY(3px) rotate(-45deg)
+			&:nth-child(2)
+				display: none
+			&:nth-child(3)
+				transform: translateY(3px) rotate(45deg)
+	.nav-menu_active
+		right: 0px
+		background-position: center
+	.main-section__content-main__model__abouts
+		font-size: 76px
+	.five-section__wrappers
+		padding-top: 25px
+		display: flex
+		flex-direction: column
+@media(max-width: 576px)
+	.container
+		max-width: 100%
+	.main-section__content-main__model__abouts
+		font-size: 46px
+	.main-section__content-main__title
+		top: 80px
+	.main-section__content-main__model
+		font-size: 18px
+	.second-section__left-wrapper__titles-model
+		margin-bottom: 0
+		width: 0%
+		height: 10%
+		font-size: 40px
+	.second-section__left-wrapper__titles-abouts
+		font-size: 18px
+		font-weight: 600
+	.abouttext
+		font-size: 18px
+	.title-third
+		font-size: 40px
+		margin-bottom: 30px
+	.four-section__caros__titles__more
+		font-size: 18px
+		font-weight: 600
+	.four-section__undo-text__ptitle
+		font-size: 18px
+	.five-section__right-wrappers__info
+		font-size: 18px
+		font-weight: 600
+	.five-section__wrappers
+		padding-top: 25px
+		display: flex
+		flex-direction: column
+	.six-section__contenting__moreinfo
+		display: flex
+		justify-content: space-evenly
+		text-align: center
+		font-size: 18px
+
